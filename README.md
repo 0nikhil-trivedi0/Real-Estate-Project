@@ -18,6 +18,8 @@ This is an End to End Machine learning project for predicting House prices based
 
 3)Flask
 
+4)HTML
+
 ###Future integration
 
 Deployment of the project on Heroku Cloud platform with the use of Dockers and github action.
