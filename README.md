@@ -12,9 +12,11 @@ This is an End to End Machine learning project for predicting House prices based
 
 ###Technology used 
 
-Machine learning(Linear Regression)
-Python programming(with jupyter notebook)
-Flask
+1)Machine learning(Linear Regression)
+
+2)Python programming(with jupyter notebook)
+
+3)Flask
 
 ###Future integration
 
