@@ -13,7 +13,7 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/predict_api', methods=["GET", "POST"])
+@app.route('/predict_api', methods=["POST"])
 def predict_api():
     data = request.json['data']
     print(data)
@@ -24,7 +24,7 @@ def predict_api():
     return jsonify(output[0])
 
 
-@app.route('/predict', methods=["GET", "POST"])
+@app.route('/predict', methods=["POST"])
 def predict():
     data = [float(x) for x in request.form.values()]
     final_input = scalar.transform(np.array(data).reshape(1, -1))
